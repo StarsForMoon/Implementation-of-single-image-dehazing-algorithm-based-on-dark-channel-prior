@@ -4,4 +4,4 @@ J = zeros(size(im));
 for ind = 1:3
    J(:,:,ind) =  (im(:,:,ind) - A(ind))./max(transmission,t0)+A(ind); 
 end
-%J = J./(max(max(max(J))));
+J = J./(max(max(max(J))));
