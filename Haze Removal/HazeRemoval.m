@@ -95,11 +95,5 @@ subplot(1,2,2);
 imshow(J)
 title '去雾图'
 axis image off;
-% %增强图
-% subplot(1,3,3);
-% img_enhanced=histeq(J);
-% imshow(img_enhanced);
-% title '增强去雾图'
-% axis image off;
 
 
